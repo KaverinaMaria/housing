@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header_page {
+    /* Используемое изображение */
+    background-image: url("1.png");
+    height: 100%;
+    /* Центр и масштабирование изображения */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.first_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 160px;
+    align-items: center;
+}
+
+.info {
+    display: inline-flex;
+    gap: 16px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.wdct {
+    margin-left: 141px;
+    padding-bottom: 250px;
+}
+
+.wdct p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 141px;
+}
+
+.wdct h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 88px;
+}
+
+.but_ReadMore {
+    background-color: #C5A27E;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 15px;
+    border: none;
+    margin: 15px 0;
+}
+
+.h2T {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #897866;
+    margin-top: 100px;
+}
+
+
+.pWPAS {
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ptext {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    width: 700px;
+
+}
